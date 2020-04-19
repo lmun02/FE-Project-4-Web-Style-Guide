@@ -6,6 +6,7 @@
 /*==================================*/
 /*---Colors---*/
 /*---Media Queries---*/
+/*---Mixins---*/
 /*============================== */
 /*       Base Imports     */
 /*=============================*/
@@ -458,12 +459,10 @@ a {
 /*              Navigation                       */
 /* ============================================= */
 .nav {
-  padding-left: 0;
   flex-basis: 100%;
   display: flex;
   flex-direction: column;
 }
-
 .nav-link {
   text-align: center;
   border-radius: 5px;
