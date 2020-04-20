@@ -1,1 +1,6 @@
 /*---Mixins---*/
+@mixin mq($break-m) {
+    @media (min-width: $break-m) {
+        @content;
+    }
+}

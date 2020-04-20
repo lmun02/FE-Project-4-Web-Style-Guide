@@ -5,6 +5,7 @@
 /*     Utilities Import        */
 /*==================================*/
 /*---Colors---*/
+/*--Buttons Color---*/
 /*---Media Queries---*/
 /*---Mixins---*/
 /*============================== */
@@ -428,6 +429,10 @@ a {
 
 .warning {
   background-color: #fd7856;
+}
+
+.btn:hover {
+  background-color: #9cecfd;
 }
 
 /* ============================================= */

@@ -8,6 +8,11 @@ $color-primary: #58e1c1;
 $color-link: #51ddfc;
 $color-border: #ccc;
 
+/*--Buttons Color---*/
+$base:$color-link;
+$base-light: lighten($base,15%);
+
+
 /*---Media Queries---*/
 
 $break-m: 768px;
